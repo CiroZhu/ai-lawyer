@@ -122,14 +122,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>AI朱律师测试版</title>
-        <meta name="description" content="AI朱律师测试版" />
+        <title>普法小猫咪AI助手</title>
+        <meta name="description" content="普法小猫咪AI助手" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div className={styles.config}>
-          <h1 className={styles.title}>AI朱律师测试版</h1>
+          <h1 className={styles.title}>普法小猫咪AI助手</h1>
           <Form fluid className={styles.form}>
             <Form.Group controlId="textarea">
               <Form.ControlLabel>事实经过：</Form.ControlLabel>
