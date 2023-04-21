@@ -86,7 +86,7 @@ export default async function handler(
     return NextResponse.json({
       id: "0",
       role: "system",
-      text: "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",
+      text: "请设置 OPENAI_API_KEY",
     });
   }
 
